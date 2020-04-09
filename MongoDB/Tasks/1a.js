@@ -1,0 +1,1 @@
+db.getCollection('business').distinct('city').sort()
