@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj": {}
+    "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Databases\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj": {
+    "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Databases\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj",
+        "projectUniqueName": "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Databases\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj",
         "projectName": "JSoleckiProductEF",
-        "projectPath": "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj",
+        "projectPath": "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Databases\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj",
         "packagesPath": "C:\\Users\\Mithrian812\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\obj\\",
+        "outputPath": "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Databases\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mithrian812\\AppData\\Roaming\\NuGet\\NuGet.Config",

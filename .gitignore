@@ -3,4 +3,6 @@ target/
 test/
 *.iml
 .vs/
-
+out/
+lib/
+db-derby-10.14.2.0-bin/

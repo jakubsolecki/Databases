@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y0yFTdaVcgiz+N03jMoUNH6EUXtlK/sdL2j/szCjGM3fmg/fLZw02jcrKQ29qt5wQpLvFrmU6m/2gnIY6TjBSw==",
+  "dgSpecHash": "q6xk9dF2/WXs2cCUiK8lth34166Rz67+5iJE+QtNwCKA6OwcVceHU9hTGEHlxcRUCyU1xVlOKK6Xhy1oP/zmtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj",
+  "projectFilePath": "C:\\Users\\Mithrian812\\Desktop\\Studia\\IV semestr\\Databases\\Entity Framework\\ISoleckiProductEF\\ISoleckiProductEF\\ISoleckiProductEF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mithrian812\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Mithrian812\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
