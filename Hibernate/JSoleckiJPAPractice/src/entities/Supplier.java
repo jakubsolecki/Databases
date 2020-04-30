@@ -1,3 +1,7 @@
+package entities;
+
+import entities.Product;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -26,5 +30,25 @@ public class Supplier {
     public void addProduct(Product product) {
         products.add(product);
         product.setSupplier(this);
+    }
+
+    public int getSupplierID() {
+        return supplierID;
+    }
+
+    public String getCompanyName() {
+        return companyName;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public Set<Product> getProducts() {
+        return products;
     }
 }

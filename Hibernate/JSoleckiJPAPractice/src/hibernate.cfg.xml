@@ -11,8 +11,10 @@
         <property name="show_sql">true</property>
         <property name="use_sql_comments">true</property>
         <!-- DB schema will be updated if needed -->
-        <property name="hibernate.hbm2ddl.auto">create-drop</property>
-        <mapping class="Product"/>
-        <mapping class="Supplier"/>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <mapping class="entities.Product"/>
+        <mapping class="entities.Supplier"/>
+        <mapping class="entities.Category"/>
+        <mapping class="entities.Invoice"/>
     </session-factory>
 </hibernate-configuration>
