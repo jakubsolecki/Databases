@@ -7,48 +7,22 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-public class Supplier {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int supplierID;
-    private String companyName;
-    private String street;
-    private String city;
-    @OneToMany(mappedBy = "supplier")
-    private Set<Product> products;
+public class Supplier extends Company{
+    private String bankAccountNumber;
+//    @OneToMany(mappedBy = "supplier")
+//    private Set<Product> products;
 
     public Supplier() {
+        super();
     }
 
-    public Supplier(String companyName, String street, String city) {
-        this.companyName = companyName;
-        this.street = street;
-        this.city = city;
-        products = new HashSet<>();
+    public Supplier(String bankAccountNumber, String companyName, String street, String city, String zip) {
+        super(companyName, street, city, zip);
+        this.bankAccountNumber = bankAccountNumber;
+//        this.products = new HashSet<>();
     }
 
-    public void addProduct(Product product) {
-        products.add(product);
-        product.setSupplier(this);
-    }
-
-    public int getSupplierID() {
-        return supplierID;
-    }
-
-    public String getCompanyName() {
-        return companyName;
-    }
-
-    public String getStreet() {
-        return street;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public Set<Product> getProducts() {
-        return products;
-    }
+//    public void addProduct(Product product) {
+//        this.products.add(product);
+//    }
 }

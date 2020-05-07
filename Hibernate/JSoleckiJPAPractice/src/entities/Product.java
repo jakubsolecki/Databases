@@ -3,18 +3,18 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity
+//@Entity
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int productID;
     private String productName;
     private int unitsInStock;
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.PERSIST})
     private Supplier supplier;
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.PERSIST})
     private Category category;
-    @ManyToMany
+    @ManyToMany(cascade = {CascadeType.PERSIST})
     private Set<Invoice> invoices;
 
     public Product() {

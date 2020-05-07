@@ -1,3 +1,5 @@
+package hibernate;
+
 import entities.Category;
 import entities.Invoice;
 import entities.Product;

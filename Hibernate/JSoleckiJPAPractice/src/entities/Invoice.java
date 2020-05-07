@@ -4,14 +4,14 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity
+//@Entity
 public class Invoice {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int invoiceID;
     private int invoiceNumber;
     private int quantity;
-    @ManyToMany(mappedBy = "invoices")
+    @ManyToMany(mappedBy = "invoices", cascade = {CascadeType.PERSIST})
     private Set<Product> products;
 
     public Invoice() {

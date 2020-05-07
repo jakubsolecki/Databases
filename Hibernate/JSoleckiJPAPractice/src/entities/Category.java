@@ -3,13 +3,13 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+//@Entity
 public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int categoryID;
     private String categoryName;
-    @OneToMany(mappedBy = "category")
+    @OneToMany(mappedBy = "category", cascade = {CascadeType.PERSIST})
     private List<Product> products;
 
     public Category() {
